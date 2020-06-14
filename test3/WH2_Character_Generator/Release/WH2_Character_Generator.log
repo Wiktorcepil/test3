@@ -1,8 +1,0 @@
-﻿  Character.cpp
-c:\users\user\source\repos\wh2_character_generator\wh2_character_generator\character.cpp(13): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
-  Trwa generowanie kodu
-  2 of 74 functions ( 2.7%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
-  Zakończono generowanie kodu
-  WH2_Character_Generator.vcxproj -> C:\Users\User\source\repos\WH2_Character_Generator\Release\WH2_Character_Generator.exe
