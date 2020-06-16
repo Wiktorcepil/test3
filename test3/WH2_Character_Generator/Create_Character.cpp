@@ -107,5 +107,5 @@ Create_Character::Create_Character(int ww, int us, int k, int odp, int zr, int i
 
 	// to do wypiswywanie zdolnosci wynikajacych z profesji i z rasy
 	// to do wypisywanie ekwipunku danej profesji
-	Create_Character:: ~Create_Character();
+	
 }
