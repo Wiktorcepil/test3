@@ -7,11 +7,11 @@ Program zawiera:
 - zakresowa pętla for (Create_Character.cp)
 - własny szablon klasy (lub funkcji) (Controller.cpp/.h)
 - plik .h z deklaracja i .cpp z definicją metod
-- dziedziczenie             |\
-- polimorfizm               | \ 
-- klasy                     |  == (Character_class)
-- klasa abstrakcyjna        | /
-- czysto wirtualne metody   |/
+- dziedziczenie (Character_class)             
+- polimorfizm (Character_class)               
+- klasy (Character_class)
+- klasa abstrakcyjna (Character_class)       
+- czysto wirtualne metody (Character_class)   
 
 - własny szablon klasy (lub funkcji) (np. Character_class)
 
