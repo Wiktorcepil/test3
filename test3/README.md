@@ -14,3 +14,6 @@ Program zawiera:
 - czysto wirtualne metody   |/
 
 - własny szablon klasy (lub funkcji) (np. Character_class)
+
+do odpalenia programu uzyc pliku z rozszerzeniem .exe
+Mozna wrzucic w visual studio
