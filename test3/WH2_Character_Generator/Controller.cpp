@@ -3,32 +3,28 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <SFML/Window.hpp>
+
 using namespace std;
-//				WW US K ODP ZR INT SW OGD A ¯YW SW OGD A ¯Yw S WT SZ MAG PO PP
+//				WW US K ODP ZR INT SW OGD A Å»YW SW OGD A Å»Yw S WT SZ MAG PO PP raceid
 
 void Controller()
 {
-	char controller;
-//	int character_numb;
-//	std::vector <int> humans;
 	while (true)
 	{
+		char controller;
 		
 		cin >> controller; //zapytanie kontrolera, wprowadzenie wartosci w kontroler
-		if (controller == '1')
+
+		if (controller == '1') //tworzenie czlowieka
 		{
-			Create_Character human1(20, 20, 20, 20, 20, 20, 20, 20, 1, 0, 0, 0, 4, 0, 0, 2);
-			
+			Create_Character human1(20, 20, 20, 20, 20, 20, 20, 20, 1, 0, 0, 0, 4, 0, 0, 2, 1);	
 		}
 
-		//create elf raceid == 2
-		//Create_Character elf(20, 30, 20, 20, 30, 20, 20, 20, 1, 0, 0, 0, 5, 0, 0, 1);
-
-		//create halfling raceid == 3
-		///Create_Character(10, 30, 10, 10, 30, 20, 20, 30, 1, 0, 0, 0, 3, 0, 0, 0);
-
-		//create dwarf raceid == 4
-		///Create_Character(30, 20, 20, 30, 10, 20, 20, 10, 1, 0, 0, 0, 4, 0, 0, 0);
+		if (controller == '2') //tworzenie elfa
+		{
+			Create_Character elf(20, 30, 20, 20, 30, 20, 20, 20, 1, 0, 0, 0, 5, 0, 0, 1, 2);
+		}
 
 		if (controller == 'q') // wylaczanie programu przy wprowadzeniu q z klawiatury
 		{
@@ -38,10 +34,10 @@ void Controller()
 			if (controller == 'q')
 			{
 				cout << "opuszczanie programu" << endl;
-				exit(1);
+				exit(1); //wychodzenie z programu
 			}
 		} 
 
-		controller = '0'; // zerowanie kontrolera
+		controller = '0'; // zerowanie kontrolera przed ponownym zapytaniem
 	}
 }
