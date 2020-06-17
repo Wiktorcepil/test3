@@ -1,26 +1,26 @@
 #pragma once
 #include <string>
+#include <vector>
 
-//				WW US K ODP ZR INT SW OGD A ¯YW SW OGD A ¯YW S WT SZ MAG PO PP
-int profession_quantity = 3; //ilosc klas postaci, uzywane do losowania profesji poczatkowej postaci AKTUALIZOWAC PRZY DODANIU NOWYCH KLAS!!!
+//				0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19
+//				WW	US	K	ODP	ZR	INT	SW	OGD	A	Å»YW	SW	OGD	A	Å»YW	S	WT	SZ	MAG	PO	PP
+
 class Character_profession
 {
-private: std::string stats_profession[16] = { "","","","","","","","","","","","","","","","" };
+public: //std::string stats_profession[16] = {"  ","  ","  ","  ","  ","  ","  ","  ","  ","  ","  ","  ","  ","  ","  ","  "};
+		std::vector <std::string> equipment;
 };
 
+		//////////////////////// DZIEDZICZENIE ///////////////////////////
 class Fighter : public Character_profession
 {
-	
+public: Fighter();
 };
+
 
 class Hunter : public Character_profession
 {
-
+public: Hunter();
 };
 
-class Rouge : public Character_profession
-{
-
-};
-
-int profession_roll();
+void profession_roll();
