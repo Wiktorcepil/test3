@@ -16,4 +16,4 @@ Program zawiera:
 - własny szablon klasy (lub funkcji) (np. Character_class)
 
 do odpalenia programu uzyc pliku z rozszerzeniem .exe
-Mozna wrzucic w visual studio
+Mozna wrzucic w visual studio albo odpalic za pomoca makefile przy pomocy komendy make run
