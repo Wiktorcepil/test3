@@ -10,8 +10,8 @@ Program zawiera:
 - dziedziczenie (Character_class)             
 - polimorfizm (Character_class)               
 - klasy (Character_class)
-- klasa abstrakcyjna (Character_class)       
-- czysto wirtualne metody (Character_class)   
+- klasa abstrakcyjna    POSTARAM SIĘ JAK NAJSZYBCIEJ TO WRZUCIĆ DO NIEDZIELI      
+- czysto wirtualne metody  POSTARAM SIĘ JAK NAJSZYBCIEJ TO WRZUCIĆ DO NIEDZIELI      
 
 - własny szablon klasy (lub funkcji) (np. Character_class)
 
